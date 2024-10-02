@@ -1,3 +1,11 @@
+import Guest from '../Layouts/Guest';
+
 export default function Index() {
-    return <div>Index</div>
+    return (
+        <Guest>
+            <div>
+                Index
+            </div>
+        </Guest>
+    );
 }

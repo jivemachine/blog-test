@@ -1,3 +1,9 @@
+import Guest from '../Layouts/Guest';
+
 export default function Contact() {
-    return <div>Contact</div>
+    return (
+        <Guest>
+            <div>Contact</div>
+        </Guest>
+    );
 }
